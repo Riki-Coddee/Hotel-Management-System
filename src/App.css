@@ -36,3 +36,59 @@
     transform: rotate(360deg);
   }
 }
+
+
+/* Navbar */
+.hmsNavbar{
+font-size: 15px; /*parent element for em*/
+overflow: hidden;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Ensures left and center alignment */
+  padding: 10px 20px;
+  background: #333;
+  color: white;
+  flex-wrap: wrap;
+}
+
+.navbar-hmsName {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.navbar-hmsName a {
+  text-decoration: none;
+  color: white;
+}
+
+.navbar-itemlist {
+  flex-grow: 1; /* Allows it to expand */
+  display: flex;
+  justify-content: center; /* Centers this div */
+}
+
+.navbar-navv {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.navbar-item {
+  cursor: pointer;
+}
+.navbar-btn{
+display: flex;
+    width: 10em;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.navbar-btn button{
+  border: 1px solid green;
+  background-color: black;
+  color: rgb(34, 124, 7);
+  width: 4em;
+  height: 2em;
+  border-radius: 1em;
+}
