@@ -26,8 +26,8 @@ const Footer = () => {
             streamlines operations, ensuring a premium hospitality experience.
           </p>
         </div>
-        <div class="sb-footer-section_services">
-          <h1>Services</h1>
+        <div class="sb-footer-section_services pos-rel">
+          <h1>Services <div className="underline"><span></span></div></h1>
           <div class="sb-footer-section_services_lists">
             <ul class="servicesList">
               <li class="servicesList_1"><a href="">Online Booking Management</a></li>
@@ -38,8 +38,8 @@ const Footer = () => {
             </ul>
           </div>
         </div>
-        <div class="sb-footer-section_quickLinks">
-          <h1>Quick Links</h1>
+        <div class="sb-footer-section_quickLinks pos-rel">
+          <h1>Quick Links<div className="underline"><span></span></div></h1>
           <div class="sb-footer-section_quickLinks_lists">
             <ul class="quickLinksList">
               <li class="quickLinksList_1"><a href="">Online Booking Management</a></li>
@@ -50,8 +50,8 @@ const Footer = () => {
             </ul>
           </div>
         </div>
-        <div class="sb-footer-section_supportLinks">
-          <h1>Support</h1>
+        <div class="sb-footer-section_supportLinks pos-rel">
+          <h1>Support<div className="underline"><span></span></div></h1>
           <div class="sb-footer-section_supportLinks_lists">
             <ul class="supportList">
               <li class="supportList_1"><a href="">Online Booking Management</a></li>
@@ -62,8 +62,8 @@ const Footer = () => {
             </ul>
           </div>
         </div>
-        <div class="sb-footer-section_contact">
-          <h1>Contact</h1>
+        <div class="sb-footer-section_contact pos-rel">
+          <h1>Contact<div className="underline"><span></span></div></h1>
           <div class="sb-footer-section_contact_lists">
             <ul class="contactList">
               <li class="contactList_1">

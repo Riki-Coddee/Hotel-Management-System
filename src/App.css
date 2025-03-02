@@ -154,6 +154,37 @@ display: flex;
   margin: 0;
   padding: 0.4em 0em;
 }
+.pos-rel{
+  position: relative;
+}
+.underline {
+    width: 50%;
+    height: 0.2em;
+    background: #767676;
+    border-radius: 0.1em;
+    position: absolute;
+    top: 2.3em;
+    overflow: hidden;
+}
+.underline span {
+  height: 100%;
+  width: 1em;
+  background: black;
+  border-radius: 3px;
+  position: absolute;
+  top: 0;
+  left: 10px;
+  animation: moving 2s linear infinite;
+}
+@keyframes moving {
+  0%{
+    left: -20px;
+  }
+  100%{
+    left: 100px;
+  }
+}
+
 
 /* Home */
 .container{
